@@ -1,2 +1,2 @@
--- Blue GHCI prompt with lambda.
+-- Blue GHCi prompt with lambda.
 :set prompt "\ESC[34m%s λ \ESC[m"
