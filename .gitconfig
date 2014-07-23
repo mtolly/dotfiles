@@ -1,0 +1,10 @@
+[user]
+	name = Michael Tolly
+	email = miketolly@gmail.com
+[push]
+	default = simple
+[alias]
+  au = add -u
+  dc = diff --cached
+  ls = log --stat
+  tree = log --graph --oneline --all
