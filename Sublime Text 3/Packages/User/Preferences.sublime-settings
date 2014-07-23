@@ -19,9 +19,10 @@
 		"*.ogg",
 		"*.mp3"
 	],
+	"color_scheme": "Packages/Color Scheme - Default/SpaceCadet.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "monofur",
-	"font_size": 20,
+	"font_size": 19,
 	"ignored_packages":
 	[
 		"Vintage"
