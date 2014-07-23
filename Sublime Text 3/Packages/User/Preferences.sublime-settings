@@ -1,7 +1,27 @@
 {
 	"auto_complete_commit_on_tab": true,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*.mid",
+		"*.ogg",
+		"*.mp3"
+	],
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 15,
+	"font_face": "monofur",
+	"font_size": 20,
 	"ignored_packages":
 	[
 		"Vintage"
