@@ -45,13 +45,13 @@ ZSH_THEME="bira"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git cabal osx)
+plugins=(git osx)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/local/bin:/Users/onyxite/hsbin/.cabal-sandbox/bin:/Users/onyxite/bin:/Users/onyxite/.cabal/bin:/Applications/ghc-7.8.3.app/Contents/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"
+export PATH="/opt/local/bin:/usr/local/opt/qt5/bin:/Users/onyxite/ghcjsbin/.cabal-sandbox/bin:/usr/local/bin:/usr/local/sbin:/Users/onyxite/hsbin/.cabal-sandbox/bin:/Users/onyxite/bin:/Users/onyxite/.cabal/bin:/Applications/ghc-7.8.3.app/Contents/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -78,3 +78,11 @@ export PATH="/usr/local/bin:/Users/onyxite/hsbin/.cabal-sandbox/bin:/Users/onyxi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias gs="git status"
+alias cri="cordova run ios"
+alias cid="cabal install --only-dependencies"
+alias cb="cabal build"
+
+export ANDROID_HOME=/usr/local/opt/android-sdk
+export VIM_APP_DIR=/Applications/MacVim-snapshot-73
+export PYTHONPATH=/Users/onyxite/lib/python2.7/site-packages

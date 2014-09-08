@@ -23,7 +23,7 @@ world-file: /Users/onyxite/.cabal/world
 -- program-prefix: 
 -- program-suffix: 
 -- library-vanilla: True
--- library-profiling: False
+library-profiling: True
 -- shared:
 -- executable-dynamic: False
 -- executable-profiling: False
@@ -73,13 +73,13 @@ haddock
   -- hoogle: False
   -- html: False
   -- html-location:
-  -- executables: False
+  executables: True
   -- tests: False
   -- benchmarks: False
   -- all:
   -- internal: False
   -- css:
-  -- hyperlink-source: False
+  hyperlink-source: True
   -- hscolour-css:
   -- contents-location:
 

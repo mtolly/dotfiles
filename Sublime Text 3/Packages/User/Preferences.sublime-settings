@@ -17,9 +17,15 @@
 		"*.zip",
 		"*.mid",
 		"*.ogg",
-		"*.mp3"
+		"*.mp3",
+		"*.hi",
+		"*.o",
+		"*.dyn_hi",
+		"*.dyn_o",
+		"package.conf.inplace",
+		"setup-config"
 	],
-	"color_scheme": "Packages/Color Scheme - Default/SpaceCadet.tmTheme",
+	"color_scheme": "Packages/User/Colorsublime/themes/Coffee_Dark_Roast.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "monofur",
 	"font_size": 19,
