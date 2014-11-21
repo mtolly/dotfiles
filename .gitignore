@@ -1,0 +1,2 @@
+# This functions both as a .gitignore for the repo, and as a global .gitignore
+.DS_Store
