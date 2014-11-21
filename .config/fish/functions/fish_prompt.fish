@@ -10,17 +10,17 @@ end
 
 function fish_prompt --description 'Write out the prompt'
 
-	echo -n "╭─"
-	set_color $fish_color_user
-	echo -n (whoami)
-	set_color normal
-	echo -n @
-	set_color $fish_color_host
-	echo -n (hostname -s)
+  echo -n "╭─"
+  set_color $fish_color_user
+  echo -n (whoami)
+  set_color normal
+  echo -n @
+  set_color $fish_color_host
+  echo -n (hostname -s)
 
-	echo -n "  "
-	set_color $fish_color_cwd
-	echo -n (prompt_pwd)
+  echo -n "  "
+  set_color $fish_color_cwd
+  echo -n (prompt_pwd)
 
   if [ (_git_branch_name) ]
     set_color yellow
@@ -35,8 +35,8 @@ function fish_prompt --description 'Write out the prompt'
 
   echo
 
-	set_color normal
-	echo -n "╰─\$ "
+  set_color normal
+  echo -n "╰─\$ "
 
 end
 
