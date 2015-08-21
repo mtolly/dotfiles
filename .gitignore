@@ -1,2 +1,6 @@
-# This functions both as a .gitignore for the repo, and as a global .gitignore
+dist/
+.cabal-sandbox/
+cabal.sandbox.config
 .DS_Store
+.stack-work/
+.vagrant/

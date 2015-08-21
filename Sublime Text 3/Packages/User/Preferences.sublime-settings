@@ -25,10 +25,10 @@
 		"package.conf.inplace",
 		"setup-config"
 	],
-	"color_scheme": "Packages/User/Colorsublime/themes/Coffee_Dark_Roast.tmTheme",
+	"color_scheme": "Packages/Colorsublime - Themes/Tomorrow_Night.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
-	"font_face": "monofur",
-	"font_size": 19,
+	"font_face": "Monofur",
+	"font_size": 17,
 	"ignored_packages":
 	[
 		"Vintage"
