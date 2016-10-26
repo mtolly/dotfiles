@@ -1,5 +1,6 @@
 {
 	"auto_complete_commit_on_tab": true,
+	"auto_match_enabled": false,
 	"binary_file_patterns":
 	[
 		"*.jpg",
@@ -25,10 +26,10 @@
 		"package.conf.inplace",
 		"setup-config"
 	],
-	"color_scheme": "Packages/Colorsublime - Themes/Tomorrow_Night.tmTheme",
+	"color_scheme": "Packages/Colorsublime - Themes/Grunge.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
-	"font_face": "Monofur",
-	"font_size": 17,
+	"font_face": "InputMono",
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"Vintage"
