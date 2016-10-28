@@ -4,7 +4,6 @@
 [push]
   default = simple
 [alias]
-  au   = add -u
   d    = diff -M
   dc   = diff --cached -M
   dcs  = diff --cached --stat -M
@@ -12,8 +11,6 @@
   ls   = log --stat
   tree = log --graph --oneline --all
   s    = status
+  pf   = pull --ff-only
 [core]
-  excludesfile = /Users/mtolly/.gitignore
-  attributesfile = /Users/mtolly/.gitattributes
-[diff "midi"]
-  command = /Users/mtolly/bin/mididiff
+  excludesfile = ~/.gitignore

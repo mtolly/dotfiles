@@ -1,0 +1,15 @@
+Config
+  { font = "xft:Pentatonic:size=23"
+  , borderColor = "black"
+  , border = BottomB
+  , bgColor = "#222"
+  , fgColor = "#eee"
+  , position = TopW L 100
+  , commands =
+    [ Run Date "%a %b %_d %Y %H:%M:%S" "date" 10
+    , Run StdinReader
+    ]
+  , sepChar = "%"
+  , alignSep = "}{"
+  , template = "%StdinReader%}{<fc=#69b8c6>%date%</fc>"
+  }

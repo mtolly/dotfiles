@@ -26,18 +26,23 @@
 		"package.conf.inplace",
 		"setup-config"
 	],
-	"color_scheme": "Packages/Colorsublime - Themes/Grunge.tmTheme",
+	"color_scheme": "Packages/Colorsublime - Themes/DeerAntlerDark.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
-	"font_face": "InputMono",
-	"font_size": 12,
+	"font_face": "Input Mono",
+	"font_size": 10,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"material_theme_accent_orange": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_contrast_fileicon": true,
+	"material_theme_small_tab": true,
 	"rulers":
 	[
 		80
 	],
 	"tab_size": 2,
+	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": true
 }
