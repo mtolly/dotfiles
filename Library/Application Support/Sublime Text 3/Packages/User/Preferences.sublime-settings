@@ -26,7 +26,7 @@
 		"package.conf.inplace",
 		"setup-config"
 	],
-	"color_scheme": "Packages/Colorsublime - Themes/DeerAntlerDark.tmTheme",
+	"color_scheme": "Packages/Colorsublime - Themes/Dark_Krystal.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Input Mono",
 	"font_size": 10,

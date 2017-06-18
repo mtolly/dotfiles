@@ -1,2 +1,1 @@
-function fish_greeting
-end
+/home/mtolly/.config/fisherman/bobthefish/fish_greeting.fish
