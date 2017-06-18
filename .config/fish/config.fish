@@ -1,16 +1,17 @@
 set WINEPREFIX $HOME/.wine
 
-# set PATH "/Applications/Sublime Text.app/Contents/SharedSupport/bin" $PATH
+if [ (uname -s) = "Darwin" ]
+  set PATH "/Applications/Sublime Text.app/Contents/SharedSupport/bin" $PATH
+end
 
 set PATH $HOME/.local/bin $PATH
 set EDITOR 'subl --wait'
 
-# set PATH $HOME/.stack/programs/x86_64-osx/ghc-8.0.1/bin/ $PATH
+set PATH $HOME/.stack/programs/x86_64-*/ghc-8.0.2/bin/ $PATH
 
 alias git hub
 
 alias gs "git status"
-# alias lilyrepl "rlwrap lilypond scheme-sandbox"
 
 function .
   open .
