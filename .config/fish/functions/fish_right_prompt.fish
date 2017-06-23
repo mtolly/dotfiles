@@ -1,1 +1,1 @@
-/home/mtolly/.config/fisherman/bobthefish/fish_right_prompt.fish
+/Users/mtolly/.config/fisherman/bobthefish/fish_right_prompt.fish
