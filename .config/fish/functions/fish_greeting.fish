@@ -1,1 +1,0 @@
-/Users/mtolly/.config/fisherman/bobthefish/fish_greeting.fish
