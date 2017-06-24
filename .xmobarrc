@@ -1,5 +1,5 @@
 Config
-  { font = "xft:Changa Medium:size=20,Noto Sans CJK TC:bold:size=18"
+  { font = "xft:DejaVu Sans:size=13,Noto Sans CJK TC:bold:size=12"
   , additionalFonts = ["xft:Changa Medium:italic:size=15,Noto Sans CJK TC:bold:size=13"]
   , borderColor = "black"
   , border = BottomB

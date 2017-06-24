@@ -26,7 +26,7 @@ confirm m f = do
   when ("y" `isPrefixOf` result) f
 
 xmobarHighlight :: String
-xmobarHighlight = "#9d83c1"
+xmobarHighlight = "#88e5fc"
 
 myManageHook :: ManageHook
 myManageHook = composeAll
@@ -40,7 +40,7 @@ main :: IO ()
 main = do
   xmproc <- spawnPipe "xmobar"
   spawn "killall nautilus"
-  spawn "feh --bg-fill /home/mtolly/Pictures/1486436469338.png"
+  spawn "feh --bg-fill /home/mtolly/Pictures/1497743550594.png"
   xmonad $ def
     { manageHook = myManageHook <+> manageDocks <+> manageHook def
     , layoutHook = let
@@ -50,7 +50,7 @@ main = do
     , workspaces = map show [1..8] ++ ["9pw"]
     , logHook = dynamicLogWithPP xmobarPP
       { ppOutput = hPutStrLn xmproc
-      , ppCurrent = xmobarColor xmobarHighlight "" . wrap "[" "]"
+      , ppCurrent = xmobarColor xmobarHighlight "" . wrap "{" "}"
       , ppTitle = xmobarColor xmobarHighlight "" . shorten 100
       , ppLayout = const ""
       }
