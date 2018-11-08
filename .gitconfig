@@ -12,6 +12,7 @@
   tree = log --graph --oneline --all
   s    = status
   pf   = pull --ff-only
+  fdx  = clean -fdx
 [core]
   excludesfile = ~/.gitignore
 	editor = vim

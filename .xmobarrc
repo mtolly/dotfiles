@@ -1,17 +1,16 @@
 Config
-  { font = "xft:DejaVu Sans:size=13,Noto Sans CJK TC:bold:size=12"
-  , additionalFonts = ["xft:Changa Medium:italic:size=15,Noto Sans CJK TC:bold:size=13"]
+  { font = "xft:NotoSansCJKJP:pixelsize=16"
+  , additionalFonts = []
   , borderColor = "black"
   , border = BottomB
   , bgColor = "#222"
   , fgColor = "#eee"
   , position = TopW L 100
   , commands =
-    [ Run Date "%a %b %_d %Y %H:%M:%S" "date" 10
+    [ Run Date "%A; %Y %b %_d; %H:%M:%S" "date" 10
     , Run StdinReader
-    , Run Com "cmus-playing" [] "" 20
     ]
   , sepChar = "%"
   , alignSep = "}{"
-  , template = "%StdinReader%}{<fc=#f7c74f>%cmus-playing%</fc> %date%"
+  , template = "%StdinReader%}{%date%"
   }
