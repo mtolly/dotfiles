@@ -15,4 +15,4 @@
   fdx  = clean -fdx
 [core]
   excludesfile = ~/.gitignore
-	editor = vim
+  editor = vim
