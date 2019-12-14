@@ -1,5 +1,5 @@
 Config
-  { font = "xft:NotoSansCJKJP:pixelsize=16"
+  { font = "xft:Pentatonic:pixelsize=18,NotoSansCJKJP:pixelsize=18"
   , additionalFonts = []
   , borderColor = "black"
   , border = BottomB
@@ -7,10 +7,12 @@ Config
   , fgColor = "#eee"
   , position = TopW L 100
   , commands =
-    [ Run Date "%A; %Y %b %_d; %H:%M:%S" "date" 10
+    [ Run Date "%A, %Y %b %_d, %H:%M:%S" "date" 10
+    -- , Run Network "enp0s31f6" ["-t", "<rx>KB ▼ <tx>KB ▲"] 5
     , Run StdinReader
+    , Run XMonadLog
     ]
   , sepChar = "%"
   , alignSep = "}{"
-  , template = "%StdinReader%}{%date%"
+  , template = "%XMonadLog%}%StdinReader%{%date%"
   }

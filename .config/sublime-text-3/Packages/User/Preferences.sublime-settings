@@ -26,10 +26,10 @@
 		"package.conf.inplace",
 		"setup-config"
 	],
-	"color_scheme": "Packages/Colorsublime - Themes/Dark_Krystal.tmTheme",
+	"color_scheme": "Packages/Colorsublime - Themes/mutedrainbow_sky.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Input Mono",
-	"font_size": 10,
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -43,6 +43,5 @@
 		80
 	],
 	"tab_size": 2,
-	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": true
 }

@@ -35,3 +35,6 @@ if [ (uname -s) = "Darwin" ]
     set PATH $PATH $ANDROID_HOME/platform-tools
   end
 end
+
+set -x SSH_AUTH_SOCK $XDG_RUNTIME_DIR/ssh-agent.socket
+
