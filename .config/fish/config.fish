@@ -25,3 +25,5 @@ if [ (uname -s) = "Darwin" ]
 end
 
 set -x SSH_AUTH_SOCK $XDG_RUNTIME_DIR/ssh-agent.socket
+
+set fish_greeting
